@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
-    background-image: url(../imagenes/fondo-presentacion.png); 
+    background-image: url(fondo-presentacion.png); 
     backdrop-filter: blur(15px);
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-image: url(../imagenes/fondo-presentacion2.png);
+    background-image: url(fondo-presentacion2.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
