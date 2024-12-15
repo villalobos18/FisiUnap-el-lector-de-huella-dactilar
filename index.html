@@ -1,48 +1,54 @@
-<!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentación - Lector de huella dactilar</title>
+    <title>Document</title>
     <link rel="stylesheet" href="estilospresentacion.css">
     <link rel="icon" href="favicon.png" type="image/png">
+
+    <style>
+        .texto-contenedor {
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-start; 
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            margin-left: 200px; 
+            margin-top: -25px;
+            color: white;
+        }
+    </style>
 </head>
-<body style="background-image: url(fondo-presentacion2.png);">
-    <div class="container" style="background-image: url(fondo-presentacion.png);">
-        <div class="header">
+<body>
+    <section class="showcase">
+        <header>
+            <div class="header">
             
-            <img src="isotipoUNAP.jpg" alt="Logo Unap" class="img-izq">
-            <h1>Universidad Nacional de la Amazonía Peruana</h1>
-            <img src="fisilogo.jpg" alt="Escudo Peruano" class="img-der">
-        </div>
-        <h2>Facultad de Ingeniería de Sistemas e Informática</h2>
-        <div class="info">
-            <ul>
-                <li><strong>Apellidos y nombres:</strong> Villalobos Macedo Daniel</li>
-                <li><strong>Curso:</strong> Informática II</li>
-                <li><strong>Docente:</strong> Luis Honorato Pita Astengo</li>
-                <li><strong>Tema:</strong> Lector de huella dactilar</li>
-                <li><strong>Ciclo:</strong> II</li>
+                <img src="isotipoUNAP.jpg" alt="Logo Unap"  style="position: absolute; top: 10px; left: 10px; max-height: 80px; margin: 0; width: 60px ;">
+                <div class="texto-contenedor">
+                    <h1 class="header-text">Universidad Nacional de la Amazonía Peruana <br> Facultad de Ingeniería de Sistemas e Informática </h1>
+                </div>
+                <img src="fisilogo.jpg" alt="Escudo Fisi"  style="position: absolute; top: 10px; right: 10px; max-height: 80px; width: 60px; margin: 0;">
+            </div>
+
+        </header>
+        <video src="video4.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="texto">
+            <ul style="font-size: 20px; color: white;   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);;" >
+                <li><strong>Apellidos y nombres:</strong> Villalobos Macedo Daniel.</li>
+                <li><strong>Curso:</strong> Informática II.</li>
+                <li><strong>Docente:</strong> Ing. Luis Honorato Pita Astengo.</li>
+                <li><strong>Tema:</strong> Lector de huella dactilar.</li>
+                <li><strong>Ciclo:</strong> II.</li>
             </ul>
-
-            <p style="text-align: center; text-decoration: underline;"><b>Índice</b></p>
-        </div>
-
-        <nav>
-        <a href="Principal/Principal.html">Ir a la página principal</a><br>
-        <a href="Fuentes/Fuentes.html">Fuentes</a><br>
-      
-      
-          </nav>
-
-
-        <div class="footer">
-            <p>"Año del Bicentenario, de la consolidación de nuestra Independencia, y de la conmemoración de las heroicas batallas de Junín y Ayacucho"</p>
-            <p>2024</p>
-
-            <audio src="Cartoon, Jéja - On & On (feat. Daniel Levi)  Electronic Pop  NCS - Copyright Free Music.mp3" controls autoplay style="float: right; margin: 10px; width: 200px; height: 40px; margin-top: -60px;"></audio>
+            <a href="Principal/Principal.html">Explorar Tema</a>
+            <a href="Fuentes/Fuentes.html">Fuentes</a>
 
         </div>
-    </div>
+
+
 </body>
 </html>
